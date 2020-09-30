@@ -1,0 +1,305 @@
+body {
+    background: #ffffff;
+}
+@keyframes myanimation{
+    0% {background-color: white;}
+    25% {background-color: lightblue;}
+    50% {background-color: rgb(53, 102, 177);}
+    75% {background-color: rgb(161, 194, 224);}
+    100% {background-color: white;}
+}
+ul {
+    transition-property: background;
+    transition-duration: 3s;
+}
+ul:hover {
+    background:lightblue;
+}
+nav {
+    padding:10px;
+}
+.titulo {
+    color:black;
+    font-size: 32px;
+    font-family:'Oswald', sans-serif;
+    text-align:center;
+    padding:50px;
+    animation-name:myanimation;
+    animation-duration:8s; 
+    animation-iteration-count: infinite; 
+}
+.titulo:hover {
+    background:rgb(5, 33, 73)
+}
+.sub-title {
+    color: #161618;
+    font-size: 24px;
+    font-family:'Poppins', sans-serif;
+    text-align:left;
+}
+hr {
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite; 
+}
+.contenedor {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+}
+.contenedor hr {
+    margin-top:250px;
+    padding:10px 20px 10px 20px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor p {
+    text-align:justify;
+    font-size:14px;
+    font-family:'Playfair Display', sans-serif; 
+}
+.contenedor img {
+    float:left;
+}
+.contenedor iframe {
+    margin:100px 200px 100px 200px;
+}
+.contenedor2 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:30px; 
+}
+.contenedor2 p {
+    text-align: justify; 
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+}
+.contenedor2 img {
+    float:right;
+}
+.contenedor2 footer {
+    font-size: 10px;
+    font-family:'Crimson Text', sans-serif;
+    text-align:center; 
+    margin-top:280px;
+}
+iframe {
+    margin-top:300px;
+    margin-right:250px;
+}
+.contenedor3 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:265px; 
+}
+.contenedor3 hr {
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor3 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin:auto;
+    margin-top:20px;
+}
+.contenedor3 img {
+    float:right;
+    margin-top:20px;
+    margin-bottom:70px;
+}
+.contenedor4 hr {
+    margin-top:15px;
+    margin-bottom:20px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor4 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:300px; 
+}
+.contenedor4 p{
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+}
+.contenedor4 img {
+    float:right;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.contenedor4 iframe {
+    margin-top:50px;
+    margin-left:200px;
+}
+.contenedor5 hr {
+    margin-top:80px;
+    margin-bottom:20px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor5 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:200px;
+}
+.contenedor5 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin:auto;
+}
+.contenedor5 img {
+    float:right;
+    margin-right:40px;
+    margin-bottom:70px;
+}
+.contenedor6 hr {
+    margin-top:73px;
+    margin-bottom:20px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor6 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:140px;
+}
+.contenedor6 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin:auto;
+}
+.contenedor6 img {
+    float:left;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.contenedor6 iframe {
+    margin-top:50px;
+    margin-left:230px;
+}
+.contenedor7 footer {
+    font-size: 10px;
+    font-family:'Crimson Text', sans-serif;
+    text-align:center; 
+    margin-top:300px;
+}
+.contenedor7 hr {
+    margin-top:15px;
+    margin-bottom:20px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor7 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:20px;
+}
+.contenedor7 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin:auto;
+}
+.contenedor7 img {
+    float:right;
+    margin-right:40px;
+}
+.contenedor8 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:20px;
+}
+.contenedor8 hr {
+    margin-top:380px;
+    padding:5px 10px 5px 5px;
+    animation-name:myanimation;
+    animation-duration:12s; 
+    animation-iteration-count: infinite;
+}
+.contenedor8 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin-bottom:80px;
+}
+.contenedor8 img {
+    float:right;
+    margin-left:20px;
+    margin-bottom:80px;
+}
+.contenedor9 footer {
+    font-size: 10px;
+    font-family:'Crimson Text', sans-serif;
+    text-align:center; 
+    margin-top:300px;
+}
+.contenedor9 {
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    margin-top:5px;
+}
+.contenedor9 p {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif;
+    margin:auto;
+}
+.contenedor9 img {
+    float:left;
+    margin-right:40px;
+}
+a {
+    font-size: 14px;
+    font-family:'Playfair Display', sans-serif; 
+}
+img {
+    float:right;
+    margin-top:20px;
+    margin-right:30px;
+    margin-bottom:20px;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin-top:150px;
+}
+footer {
+    font-size: 10px;
+    font-family:'Crimson Text', sans-serif;
+    text-align:center; 
+    margin-top:70px;
+}
